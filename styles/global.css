@@ -14,13 +14,12 @@ body {
     Fira Sans,
     Droid Sans,
     Helvetica Neue,
-    Playfair Display,
     sans-serif;
   line-height: 1.4;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.4px;
   font-size: 18px;
   background-color: #000;
-  color: #eae7e5;
+  color: #d5d5d5f5;
 }
 
 * {
@@ -28,7 +27,7 @@ body {
 }
 
 a {
-  color: rgb(255, 255, 224);
+  color: rgb(255, 255, 224, 0.85);
   text-decoration: none;
 }
 
