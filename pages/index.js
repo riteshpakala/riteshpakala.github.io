@@ -43,6 +43,9 @@ export default function Home({ allPostsData, allThoughtsData }) {
           ))}
         </ul>
       </section>
+      <section className={`${utilStyles.headingSm2} ${utilStyles.padding1px}`}>
+      “In the end, we will remember not the words of our enemies, but the silence of our friends.” - Martin Luther King Jr.
+      </section>
     </Layout>
   );
 }
