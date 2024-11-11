@@ -105,9 +105,9 @@ export default function Layout({ children, home }) {
                     alt={name}
                   />
                 </Link> */}
-                <Link href="https://old.paka.la">
+                {/* <Link href="https://old.paka.la">
                   old
-                </Link>
+                </Link> */}
               </div>
           </header>
       </header>
