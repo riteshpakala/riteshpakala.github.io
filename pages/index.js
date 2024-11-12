@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import { /*getSortedPostsData,*/ getSortedThoughtsData } from '../lib/posts';
+import { /*getSortedPostsData,*/ getSortedThoughtsData, getSortedCreativeData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 
-export default function Home({ allPostsData, allThoughtsData }) {
+export default function Home({ allPostsData, allThoughtsData, allCreativeData }) {
   return (
     <Layout home>
       <Head>
@@ -27,6 +27,20 @@ export default function Home({ allPostsData, allThoughtsData }) {
               </small>
             </li>
           ))} */}
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingSm} ${utilStyles.padding1px}`}>
+        <h3 className={`${utilStyles.underline}`}>Creative</h3>
+        <ul className={utilStyles.list}>
+          {allCreativeData.map(({ id, date, title }) => (
+            <li className={utilStyles.listItem} key={id}>
+              <Link href={`/creative/${id}`}>{title}</Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+          ))}
         </ul>
       </section>
       <section className={`${utilStyles.headingSm} ${utilStyles.padding1px}`}>
@@ -53,10 +67,12 @@ export default function Home({ allPostsData, allThoughtsData }) {
 export async function getStaticProps() {
   const allPostsData = [];//getSortedPostsData();
   const allThoughtsData = getSortedThoughtsData();
+  const allCreativeData = getSortedCreativeData();
   return {
     props: {
       allPostsData,
-      allThoughtsData
+      allThoughtsData,
+      allCreativeData
     },
   };
 }
