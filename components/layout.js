@@ -69,7 +69,7 @@ export default function Layout({ children, home }) {
                     alt={name}
                   />
                 </Link>
-                <Link href="https://x.com/riteshpakala">
+                {/* <Link href="https://x.com/riteshpakala">
                   <Image
                     priority
                     src="/images/x.png"
@@ -77,7 +77,7 @@ export default function Layout({ children, home }) {
                     width={20}
                     alt={name}
                   />
-                </Link>
+                </Link> */}
                 <Link href="https://linkedin.com/in/rpakala">
                   <Image
                     priority

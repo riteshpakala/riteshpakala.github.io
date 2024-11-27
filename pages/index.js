@@ -37,7 +37,7 @@ export default function Home({ allPostsData, allThoughtsData, allCreativeData })
               <Link href={`/creative/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <Date dateString={date}/>
               </small>
             </li>
           ))}
@@ -57,8 +57,8 @@ export default function Home({ allPostsData, allThoughtsData, allCreativeData })
           ))}
         </ul>
       </section>
-      <section className={`${utilStyles.headingSm2} ${utilStyles.padding1px}`}>
-      “In the end, we will remember not the words of our enemies, but the silence of our friends.” - Martin Luther King Jr.
+      <section className={`${utilStyles.headingSm2} ${utilStyles.padding16px}`}>
+      “Time is finite and maybe if you divide all the `ifs` by the `time`, the real `I` can emerge. But, it's impossible to maximize time. So don't live an unexamined life." - Demetri Martin
       </section>
     </Layout>
   );
