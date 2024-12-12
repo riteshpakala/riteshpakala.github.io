@@ -58,7 +58,7 @@ export default function Home({ allPostsData, allThoughtsData, allCreativeData })
         </ul>
       </section>
       <section className={`${utilStyles.headingSm2} ${utilStyles.padding16px}`}>
-      “Time is finite and maybe if you divide all the `ifs` by the `time`, the real `I` can emerge. But, it's impossible to maximize time. So don't live an unexamined life." - Demetri Martin
+      “By forcing yourself to write it down, to keep a log of the problems you’ve run into, you begin to see patterns. You start seeing the things you get better at and the things you keep flubbing. And then you know what to work on for next time." - Aaron Swartz
       </section>
     </Layout>
   );
