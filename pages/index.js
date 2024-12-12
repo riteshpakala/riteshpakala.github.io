@@ -29,7 +29,7 @@ export default function Home({ allPostsData, allThoughtsData, allCreativeData })
           ))} */}
         </ul>
       </section>
-      <section className={`${utilStyles.headingSm} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingSm} ${utilStyles.padding1px}`}>
         <h3 className={`${utilStyles.underline}`}>Creative</h3>
         <ul className={utilStyles.list}>
           {allCreativeData.map(({ id, date, title }) => (
@@ -42,7 +42,7 @@ export default function Home({ allPostsData, allThoughtsData, allCreativeData })
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
       <section className={`${utilStyles.headingSm} ${utilStyles.padding1px}`}>
         <h3 className={`${utilStyles.underline}`}>Thoughts</h3>
         <ul className={utilStyles.list}>
