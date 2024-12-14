@@ -57,9 +57,9 @@ export default function Home({ allPostsData, allThoughtsData, allCreativeData })
           ))}
         </ul>
       </section>
-      <section className={`${utilStyles.headingSm2} ${utilStyles.padding16px}`}>
+      {/* <section className={`${utilStyles.headingSm2} ${utilStyles.padding16px}`}>
       “By forcing yourself to write it down, to keep a log of the problems you’ve run into, you begin to see patterns. You start seeing the things you get better at and the things you keep flubbing. And then you know what to work on for next time." - Aaron Swartz
-      </section>
+      </section> */}
     </Layout>
   );
 }
