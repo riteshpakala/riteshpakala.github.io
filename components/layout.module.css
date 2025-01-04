@@ -1,0 +1,35 @@
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 0.5rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.02rem solid;
+}
+
+.headerText {
+  margin: 0;
+  padding-top: 7px;
+}
+
+.headerSocials {
+  margin: 0;
+  padding-top: 7px;
+  float: right;
+  display: inline-flex;
+}
+
+.headerSocials a {
+  padding-left: 12px;
+}
+
+.headerContainer {
+  display: inline-flex;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}

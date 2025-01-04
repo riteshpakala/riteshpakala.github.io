@@ -1,0 +1,126 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.headingSm {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.headingSm2 {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding16px {
+  padding-top: 16px;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.zeroMargin {
+  margin: 0px;
+}
+
+.zeroMarginBottom {
+  margin-bottom: 0px;
+}
+
+.marginTop1 {
+  margin-top: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  width: 50%;
+}
+
+.iframeContainer iframe {
+  border-style: none;
+  position: relative;
+  width: 100%;
+  padding-top: 24px;
+}
+
+/* .player {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 13;
+  bottom: 24px;
+  right: 24px;
+} */
+
+.playButton {
+  background: none;
+  border: none;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 2px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: Playfair Display; 
+}
+
+.dandelionText {
+  color: rgb(255, 255, 224, 0.85);
+  text-decoration: none;
+}
